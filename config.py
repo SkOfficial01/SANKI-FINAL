@@ -37,6 +37,7 @@ UPSTREAM_REPO = getenv(
 OFFICIAL_REPO = getenv(
     "OFFICIAL_REPO",
     "https://telegra.ph/file/977cd9b76d22fb4840d95.mp4",
+)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
